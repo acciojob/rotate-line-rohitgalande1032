@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	height: 100vh;
+}
+
+#line {
+	background-color: black;
+	width: 200px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%)
+}
